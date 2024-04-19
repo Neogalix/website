@@ -1,0 +1,134 @@
+body {
+    background-color: #FDF4E3;
+}
+#menu-btn {
+    width: 100px;
+}
+#menu-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+#menu-btn:hover {
+    width: 120px;
+}
+.btn {
+    width: 40px;
+    height: 40px;
+}
+.btn:hover {
+    width: 45px;
+    height: 45px;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+textarea {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 100px;
+    resize: none;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+}
+.buttons div {
+    display: flex;
+    justify-content: center;
+}
+.buttons div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+}
+#red {
+    border: 0;
+    border-radius: 5px;
+    background-color: #f00;
+}
+#yellow {
+    border: 0;
+    border-radius: 5px;
+    background-color: #f7c716;
+}
+#green {
+    border: 0;
+    border-radius: 5px;
+    background-color: #0be807;
+}
+#blue {
+    border: 0;
+    border-radius: 5px;
+    background-color: #306bff;
+}
+#brown {
+    border: 0;
+    border-radius: 5px;
+    background-color: #943600;
+}
+#aqua {
+    border: 0;
+    border-radius: 5px;
+    background-color: #3bc4ff;
+}
+#black {
+    border: 0;
+    border-radius: 5px;
+    background-color: #000;
+}
+#orange {
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff5d00;
+}
+#purple {
+    border: 0;
+    border-radius: 5px;
+    background-color: #a316a6;
+}
+#pink {
+    border: 0;
+    border-radius: 5px;
+    background-color: #f257c6;
+}
+#gray {
+    border: 0;
+    border-radius: 5px;
+    background-color: #5e5959;
+}
+.format {
+    text-align: center;
+    font-family: "Spot Mono", monospace;
+    font-size: 30px;
+}
+#bold {
+    font-weight: bold;
+}
+#italic {
+    font-style: italic;
+}
+#underline {
+    text-decoration: underline;
+}
+#strike {
+    text-decoration: line-through;
+}
