@@ -36,6 +36,9 @@ input {
     width: 300px;
     height: 40px;
     border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
 }
 .btn-holder {
     display: flex;
