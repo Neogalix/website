@@ -1,5 +1,5 @@
 let text = document.getElementById('text')
-const colors = document.querySelectorAll('.color')
+const colors = document.getElementsByClassName('color-btn')
 for (const color of colors) {
   color.addEventListener('click', function() {
     text.style.color = color.value
@@ -10,33 +10,24 @@ let btnBold = document.getElementById('bold')
 let btnItalic = document.getElementById('italic')
 let btnUnderline = document.getElementById('underline')
 let input = document.getElementById('input')
-btnBold.addEventListener('click', function() {
-  if (format[0] == 0) {
-    format[0] = 1
-    btnBold.style.backgroundColor = '#A2A2D0'
+function change(x, btnName) {
+  if (format[x] == 0) {
+    format[x] = 1
+    btnName.style.backgroundColor = '#A2A2D0'
   } else {
-    format[0] = 0
-    btnBold.style.backgroundColor = 'buttonface'
+    format[x] = 0
+    btnName.style.backgroundColor = 'buttonface'
   }
-})
-btnItalic.addEventListener('click', function() {
-  if (format[1] == 0) {
-    format[1] = 1
-    btnItalic.style.backgroundColor = '#A2A2D0'
-  } else {
-    format[1] = 0
-    btnItalic.style.backgroundColor = 'buttonface'
-  }
-})
-btnUnderline.addEventListener('click', function() {
-  if (format[2] == 0) {
-    format[2] = 1
-    btnUnderline.style.backgroundColor = '#A2A2D0'
-  } else {
-    format[2] = 0
-    btnUnderline.style.backgroundColor = 'buttonface'
-  }
-})
+}
+function bold() {
+  change(0, btnBold)
+}
+function italic() {
+  change(1, btnItalic)
+}
+function underline() {
+  change(2, btnUnderline)
+}
 function confirm() {
   if (format[0] == 1) {
     text.style.fontWeight = 'bold'

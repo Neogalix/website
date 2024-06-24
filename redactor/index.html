@@ -7,38 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="menu-btn-div"><a href="../index.html"><img src="../img/menu.png" id="menu-btn"></a></div>
-    <div class="container">
+    <div id="menu-btn-holder"><a href="../index.html"><img src="../img/menu.png" id="menu-btn"></a></div>
+    <div id="container">
         <section>
             <textarea id="text"></textarea>
-            <div class="buttons">
-                <div>
-                    <div><button class="color btn" value="#f00" id="red"></button></div>
-                    <div><button class="color btn" value="#ff5d00" id="orange"></button></div>
-                    <div><button class="color btn" value="#f7c716" id="yellow"></button></div>
-                    <div><button class="color btn" value="#0be807" id="green"></button></div>
-                    <div><button class="color btn" value="#306bff" id="blue"></button></div>
-                    <div><button class="color btn" value="#3bc4ff" id="aqua"></button></div>
-                </div>
-                <div>
-                    <div><button class="color btn" value="#000" id="black"></button></div>
-                    <div><button class="color btn" value="#943600" id="brown"></button></div>
-                    <div><button class="color btn" value="#5e5959" id="gray"></button></div>
-                    <div><button class="color btn" value="#a316a6" id="purple"></button></div>
-                    <div><button class="color btn" value="#f257c6" id="pink"></button></div>
-                </div>
+            <div class="buttons-row">
+                <div class="color-btn-holder"><button class="color-btn" value="#f00" id="red"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#ff5d00" id="orange"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#f7c716" id="yellow"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#0be807" id="green"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#306bff" id="blue"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#3bc4ff" id="aqua"></button></div>
+            </div>
+            <div class="buttons-row">
+                <div class="color-btn-holder"><button class="color-btn" value="#000" id="black"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#943600" id="brown"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#5e5959" id="gray"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#a316a6" id="purple"></button></div>
+                <div class="color-btn-holder"><button class="color-btn" value="#f257c6" id="pink"></button></div>
             </div>
         </section>
         <section id="format-section">
-            <div id="format-holder">
-                <div class="format-btn-holder"><button class="format btn" id="bold">B</button></div>
-                <div class="format-btn-holder"><button class="format btn" id="italic">I</button></div>
-                <div class="format-btn-holder"><button class="format btn" id="underline">U</button></div>
+            <div id="format-buttons-holder">
+                <div class="format-btn-holder"><button class="format-btn" id="bold" onclick="bold()">B</button></div>
+                <div class="format-btn-holder"><button class="format-btn" id="italic" onclick="italic()">I</button></div>
+                <div class="format-btn-holder"><button class="format-btn" id="underline" onclick="underline()">U</button></div>
             </div>
+            <p>Размер текста:</p>
             <input id="input" type="text">
-            <div class="btn-holder"><button class="format-btn" onclick="confirm()">Применить</button></div>
-            <div class="btn-holder"><button class="format-btn" onclick="reset()">Сбросить</button></div>
-            <div class="btn-holder"><button class="format-btn" onclick="clearText()">Очистить</button></div>
+            <div class="btn-holder"><button class="btn" onclick="confirm()">Применить</button></div>
+            <div class="btn-holder"><button class="btn" onclick="reset()">Сбросить</button></div>
+            <div class="btn-holder"><button class="btn" onclick="clearText()">Очистить</button></div>
         </section>
     </div>
     <script src="scripts.js"></script>

@@ -4,7 +4,7 @@ body {
 #menu-btn {
     width: 100px;
 }
-#menu-btn-div {
+#menu-btn-holder {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,120 +15,92 @@ body {
 #menu-btn:hover {
     width: 120px;
 }
-.btn {
-    width: 40px;
-    height: 40px;
-}
-.btn:hover {
-    width: 45px;
-    height: 45px;
-}
-.container {
+#container {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 textarea {
     padding: 8px;
     border-radius: 10px;
     border: 2px solid black;
-    margin-top: 100px;
     resize: none;
     width: 300px;
     height: 300px;
-    text-decoration: none;
-    font-weight: normal;
-    font-style: normal;
     font-size: 20px;
 }
-.buttons {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 320px;
-}
-.buttons div {
-    display: flex;
-    justify-content: center;
-}
-.buttons div div, .format-btn-holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    margin: 2.5px;
-}
-#format-section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-left: 30px;
-}
-#format-holder {
-    display: flex;
-    flex-direction: row;
-    width: 150px;
-    height: 50px;
-    margin-top: 10px;
-}
-#red {
+.color-btn {
+    width: 40px;
+    height: 40px;
     border: 0;
     border-radius: 5px;
+}
+.color-btn:hover, .format-btn:hover {
+    width: 45px;
+    height: 45px;
+}
+.buttons-row {
+    display: flex;
+    justify-content: center;
+}
+.color-btn-holder, .format-btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 2.5px;
+}
+#red {
     background-color: #f00;
 }
 #yellow {
-    border: 0;
-    border-radius: 5px;
     background-color: #f7c716;
 }
 #green {
-    border: 0;
-    border-radius: 5px;
     background-color: #0be807;
 }
 #blue {
-    border: 0;
-    border-radius: 5px;
     background-color: #306bff;
 }
 #brown {
-    border: 0;
-    border-radius: 5px;
     background-color: #943600;
 }
 #aqua {
-    border: 0;
-    border-radius: 5px;
     background-color: #3bc4ff;
 }
 #black {
-    border: 0;
-    border-radius: 5px;
     background-color: #000;
 }
 #orange {
-    border: 0;
-    border-radius: 5px;
     background-color: #ff5d00;
 }
 #purple {
-    border: 0;
-    border-radius: 5px;
     background-color: #a316a6;
 }
 #pink {
-    border: 0;
-    border-radius: 5px;
     background-color: #f257c6;
 }
 #gray {
-    border: 0;
-    border-radius: 5px;
     background-color: #5e5959;
 }
-.format {
+#format-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#format-buttons-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 158px;
+    height: 50px;
+    margin-top: 10px;
+}
+.format-btn {
+    width: 40px;
+    height: 40px;
     text-align: center;
     font-family: monospace;
     font-size: 30px;
@@ -144,15 +116,23 @@ textarea {
 #underline {
     text-decoration: underline;
 }
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3px;
+}
 .btn-holder {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
+    width: 158px;
     height: 50px;
     margin-top: 10px;
 }
-.format-btn {
+.btn {
     width: 120px;
     height: 40px;
     background-color: #FFBCAD;
@@ -162,7 +142,7 @@ textarea {
     font-size: 20px;
     font-weight: bold;
 }
-.format-btn:hover {
+.btn:hover {
     width: 130px;
     height: 50px;
 }
@@ -175,4 +155,5 @@ textarea {
     border: 2px solid black;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
