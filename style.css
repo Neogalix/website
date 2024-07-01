@@ -66,3 +66,6 @@ section {
 #my-projects-btn:hover, #vip-btn:hover {
     background-color: #ddd;
 }
+#vip-btn {
+    display: none;
+}
