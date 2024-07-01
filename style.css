@@ -1,66 +1,68 @@
-body {
-    background-color: #FDF4E3;
-}
-.row {
-    display: flex;
-    justify-content: center;
-}
-#info-card-holder {
-    margin-top: 100px;
-    width: 380px;
-    height: 190px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 360px;
-    height: 170px;
-    border-radius: 10px;
-    background-color: #F2DDC6;
-}
-#info:hover {
-    width: 380px;
-    height: 190px;
-}
-.card-holder {
-    width: 190px;
-    height: 190px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card {
-    width: 170px;
-    height: 170px;
-    border-radius: 10px;
-    background-color: #F2DDC6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card:hover {
-    width: 190px;
-    height: 190px;
-}
-.image {
-    width: 170px;
-    height: 170px;
-}
-#secret {
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    border: 0;
-    border-radius: 3px;
-    background-color: #F2DDC6;
+* {
     font-family: monospace;
-    font-size: 10px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#profile-icon-holder {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #eaeaea;
+    border: 5px solid black;
+}
+#profile-icon, #bug-img {
+    width: 170px;
+    border-radius: 17px;
+}
+#img-holder {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #eaeaea;
+    flex-direction: column;
+    padding-top: 15px;
+    border: 5px solid black;
+}
+#bug-img {
+    margin-bottom: 15px;
+}
+#main-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#nickname {
+    width: 500px;
+    height: 100px;
+    background-color: #eaeaea;
     text-align: center;
+    font-size: 70px;
     font-weight: bold;
+    border-radius: 20px;
+    padding-top: 15px;
+    border: 5px solid black;
+}
+#my-projects-btn, #vip-btn {
+    width: 210px;
+    height: 70px;
+    background-color: #eaeaea;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#my-projects-btn:hover, #vip-btn:hover {
+    background-color: #ddd;
 }
