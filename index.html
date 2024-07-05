@@ -9,52 +9,65 @@
 <body>
     <div id="container">
         <section>
-            <div id="profile-icon-holder">
+            <div id="profile-icon-holder" class="element">
                 <img src="img/profile icon.jpg" id="profile-icon">
             </div>
-            <button id="my-projects-btn" onclick="myProjects()">Мои проекты</button>
-            <div id="links-holder">
-                <div class="links-row">
+            <button id="my-projects-btn" class="element" onclick="myProjects()">Мои проекты</button>
+            <div id="links-holder" class="element">
+                <div class="links-holder__row">
                     <img src="img/telegram icon.png" class="link-img">
-                    <a href="https://t.me/Otoco_XXX" class="link">Otoco{}</a>
+                    <a href="https://t.me/Otoco_XXX" class="text">Otoco{}</a>
                 </div>
-                <div class="links-row">
+                <div class="links-holder__row">
                     <img src="img/steam icon.png" class="link-img">
-                    <a href="https://steamcommunity.com/id/Otocolobus20/" class="link">Otocolobus</a>
+                    <a href="https://steamcommunity.com/id/Otocolobus20/" class="text">Otocolobus</a>
                 </div>
-                <div class="links-row">
+                <div class="links-holder__row">
                     <img src="img/discord icon.png" class="link-img">
-                    <p href="" class="link">otoco_xxx</p>
+                    <p class="text">otoco_xxx</p>
                 </div>
-                <div class="links-row">
+                <div class="links-holder__row">
                     <img src="img/roblox icon.png" class="link-img">
-                    <p href="" class="link">Otocolobus20</p>
+                    <p class="text">Otocolobus20</p>
                 </div>
             </div>
-            <button id="vip-btn" onclick="vip()">VIP</button>
+            <button id="vip-btn" class="element" onclick="vip()">VIP</button>
         </section>
         <section id="main-section">
-            <div id="nickname">Otocolobus</div>
-            <div id="about">
-                <p id="title">Обо мне</p>
+            <div id="nickname" class="element">Otocolobus</div>
+            <div id="about" class="element">
+                <h1 class="title">Обо мне</h1>
+                <p id='about-text' class="text">
+                    ок
+                </p>
             </div>
-            <div id="favorite-game">
-                <p id="title">Любимая игра</p>
+            <div id="favorite-game" class="element">
+                <h1 class="title">Любимая игра</h1>
                 <img src="img/fnaf 9 banner.jpg" id="favorite-game-img">
                 <div id="favorite-game-info">
-                    <div class="favorite-game-info-block">
-                        <div class="favorite-game-info-row">Время в игре:</div>
-                        <div class="favorite-game-info-row">21.6 ч</div>
+                    <div class="favorite-game-info__block">
+                        <div class="favorite-game-info__block__row text">Время в игре:</div>
+                        <div class="favorite-game-info__block__row text">21.6 ч</div>
                     </div>
-                    <div class="favorite-game-info-block">
-                        <div class="favorite-game-info-row">Steam ачивки:</div>
-                        <div class="favorite-game-info-row">24 / 29</div>
+                    <div class="favorite-game-info__block">
+                        <div class="favorite-game-info__block__row text">Steam ачивки:</div>
+                        <div class="favorite-game-info__block__row text">24 / 29</div>
                     </div>
+                </div>
+            </div>
+            <div id="favorite-film" class="element">
+                <h1 class="title">Любимый фильм</h1>
+                <div class="favorite-film-images__row">
+                    <img src="img/american psycho 3.png" id="img3">
+                    <img src="img/american psycho 2.png" id="img2">
+                </div>
+                <div class="favorite-film-images__row">
+                    <img src="img/american psycho 1.png" id="img1">
                 </div>
             </div>
         </section>
         <section>
-            <div id="img-holder">
+            <div id="img-holder" class="element">
                 <img src="img/hamster.png" class="hamster-img" onclick="clickImg()">
                 <img src="img/hamster.png" class="hamster-img" onclick="clickImg()">
                 <img src="img/hamster.png" class="hamster-img" onclick="clickImg()">
