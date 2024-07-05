@@ -6,9 +6,9 @@ function vip() {
 }
 let a = 0
 let vipBtn = document.getElementById('vip-btn')
-function clickImg4() {
+function clickImg() {
     a += 1
-    if (a == 6) {
+    if (a == 10) {
         vipBtn.style.display = 'block'
     }
 }

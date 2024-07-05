@@ -20,7 +20,7 @@ section {
     background-color: #eaeaea;
     border: 5px solid black;
 }
-#profile-icon, #bug-img {
+#profile-icon, .hamster-img {
     width: 185px;
     border-radius: 10%;
 }
@@ -35,7 +35,7 @@ section {
     padding-top: 15px;
     border: 5px solid black;
 }
-#bug-img {
+.hamster-img {
     margin-bottom: 15px;
 }
 #main-section {
