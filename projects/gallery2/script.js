@@ -1,8 +1,8 @@
 let photos = [
-    '../img/carousel1.webp',
-    '../img/carousel2.webp',
-    '../img/carousel3.webp',
-    '../img/carousel4.webp',
+    '../../img/carousel1.webp',
+    '../../img/carousel2.webp',
+    '../../img/carousel3.webp',
+    '../../img/carousel4.webp',
 ]
 document.addEventListener('DOMContentLoaded', function() {
     let currentSlide = 0
