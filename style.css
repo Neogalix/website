@@ -8,12 +8,19 @@ section {
     font-family: monospace;
     margin-top: 10px;
 }
-.title {
+.title, #mini-title-first, #mini-title-second {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
     font-size: 30px;
     font-weight: bold;
+}
+#mini-title-first {
+    font-size: 27px;
+    margin-top: 15px;
+}
+#mini-title-second {
+    font-size: 27px;
 }
 .text {
     font-size: 20px;
