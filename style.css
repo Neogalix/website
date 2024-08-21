@@ -160,28 +160,26 @@ section {
     flex-direction: row;
     margin-top: 15px;
 }
-#img3 {
+#american-psycho-small1-img {
     width: 170px;
     margin-right: 15px;
     border-radius: 17px;
 }
-#img2 {
+#american-psycho-small2-img {
     height: 170px;
     border-radius: 17px;
 }
-#img1 {
+#american-psycho-big-img {
     width: 444px;
     border-radius: 17px;
 }
 #img-holder {
-    width: 215px;
+    width: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     border-radius: 21.5px;
-    padding-top: 15px;
+    padding: 7.5px;
 }
 .hamster-img {
-    margin-bottom: 15px;
+    margin: 7.5px;
 }
