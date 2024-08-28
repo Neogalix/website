@@ -2,7 +2,7 @@ function myProjects() {
     location.href = 'projects/main/index.html'
 }
 function vip() {
-    location.href = 'secret/index.html'
+    location.href = 'secret/password page/index.html'
 }
 let a = 0
 let vipBtn = document.getElementById('vip-btn')
