@@ -3,6 +3,43 @@
 body {
     font-family: "Inter";
 }
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 22.5px;
+    background-color: #eaeaea;
+    border: 5px solid black;
+    padding: 15px;
+    margin: 10px;
+}
+.object {
+    width: 185px;
+    height: 185px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+.mini-row {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.flag {
+    height: 100%;
+    margin-right: 10px;
+}
+.translate {
+    font-size: 20px;
+    margin: 0;
+}
+
 #menu-btn, #back-btn {
     width: 50px;
     height: 50px;
