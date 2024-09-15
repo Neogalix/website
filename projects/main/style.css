@@ -1,3 +1,10 @@
+#container {
+    width: 570px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
 .row {
     display: flex;
     justify-content: center;
@@ -17,7 +24,6 @@
     width: 360px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 #info-card:hover, .card:hover {
     background-color: #ddd;
