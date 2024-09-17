@@ -3,6 +3,59 @@
 body {
     font-family: "Inter";
 }
+
+#container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eaeaea;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+}
+.text-big {
+    font-size: 40px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+#colors {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.color {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+#first-color {
+    background-color: #eaeaea;
+}
+#second-color {
+    background-color: #ddd;
+}
+#third-color {
+    background-color: #000;
+}
+.text-small {
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+}
+
 #menu-btn, #back-btn {
     width: 50px;
     height: 50px;

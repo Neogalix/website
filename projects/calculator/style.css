@@ -68,6 +68,9 @@ input {
     height: 60px;
     margin-left: 5px;
 }
+.notes__row input {
+    width: 212px;
+}
 h1 {
     margin-left: 9px;
     margin-top: 0;
