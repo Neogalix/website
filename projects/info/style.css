@@ -6,7 +6,7 @@ body {
 
 #container {
     width: 800px;
-    height: 800px;
+    height: 850px;
     display: flex;
     align-items: center;
     flex-direction: column;
