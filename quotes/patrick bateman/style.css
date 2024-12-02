@@ -2,19 +2,35 @@
 
 body {
     font-family: "Inter";
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-.btn {
-    width: 200px;
+.quote-block {
+    width: 470px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
     background-color: #eaeaea;
-    border: 5px solid black;
     border-radius: 21.5px;
+    border: 5px solid black;
     margin: auto;
+    margin-bottom: 10px;
     padding: 15px;
 }
-.btn a {
-    text-decoration: none;
+.quote-block__img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #menu-btn, #back-btn {
