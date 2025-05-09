@@ -1,0 +1,11 @@
+#f, #s {
+    width: 100px;
+    height: 100px;
+}
+
+#f {
+    background-color: red;
+}
+#s {
+    background-color: green;
+}

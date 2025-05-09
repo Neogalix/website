@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="../main/index.html"><div id="back-btn-holder"><img src="../../img/icons/back light.png" id="back-btn"></div></a>
+    <a href="../../index.html"><div id="menu-btn-holder"><img src="../../img/icons/menu light.png" id="menu-btn"></div></a>
+    <button id="theme-btn-holder" onclick="change()"><img src="../../img/icons/theme light.png" id="theme-btn"></button>
+    <section class="gallery">
+        <div class="gallery__full-photo">
+            <img class="full-photo" src="../../img/carousel1.webp" width="950" height="600">
+        </div>
+        <div class="gallery__previews-photo">
+            <div><button class="gallery__preview-photo" type="button">
+                <img src="../../img/carousel1.webp" alt="Thumbnail 1">
+            </button></div>
+            <div><button class="gallery__preview-photo" type="button">
+                <img src="../../img/carousel2.webp" alt="Thumbnail 2">
+            </button></div>
+            <div><button class="gallery__preview-photo" type="button">
+                <img src="../../img/carousel3.webp" alt="Thumbnail 3">
+            </button></div>
+            <div><button class="gallery__preview-photo" type="button">
+                <img src="../../img/carousel4.webp" alt="Thumbnail 4">
+            </button></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="../../themes.js"></script>
+</body>
+</html>

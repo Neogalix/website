@@ -1,137 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 body {
-    font-family: "Inter";
-}
-section {
-    display: flex;
-    flex-direction: column;
-}
-.element {
-    background-color: #eaeaea;
-    border: 5px solid black;
-    border-radius: 21.5px;
-    margin-top: 10px;
-    padding: 15px;
-}
-.title {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0;
-}
-.text {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0;
-}
-img {
-    border-radius: 18.5px;
+    background-color: #170055;
+    font-family: "Roboto Mono", monospace;
+    color: #B5FFD9;
 }
 
-#container {
-    width: 100%;
+#icon-holder {
+    width: 84px;
+    height: 84px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    transition: 1.8s;
 }
-#profile-icon-holder {
-    height: 185px;
+
+#icon-holder:hover {
+    rotate: 360deg;
 }
-#profile-icon, .previp-img {
-    width: 185px;
-    height: 185px;
+
+#icon {
+    width: 84px;
+    height: 84px;
 }
-#my-projects-btn, #vip-btn {
-    width: 225px;
-    height: 70px;
-    font-size: 25px;
-    font-weight: bold;
-}
-#my-projects-btn:hover, #vip-btn:hover {
-    background-color: #ddd;
-}
-#vip-btn {
-    display: none;
-}
-#links-holder {
-    width: 185px;
-    height: 185px;
+
+header {
+    width: 540px;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
+
+.links-holder {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 24px;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+h3:hover {
+    text-shadow: 0 0 30px #B5FFD9;
+    border-bottom: 3px solid #AE00FB;
+}
+
+main {
+    display: flex;
     flex-direction: column;
-}
-.links-holder__row {
-    height: 35px;
-    display: flex;
     align-items: center;
+    margin-top: 150px;
 }
-.links-holder__row__img {
-    width: 35px;
-    height: 35px;
-    border-radius: 0;
-    margin-right: 10px;
+
+h1 {
+    font-size: 72px;
+    position: relative;
+    text-shadow: 0 0 30px #B5FFD9;
 }
-#main-section {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#nickname {
-    width: 470px;
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
-}
-#about-me {
-    width: 470px;
-}
-#favorite-game, #favorite-film {
-    width: 470px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#favorite-game__img {
-    width: 70%;
-    margin: 15px;
-}
-#favorite-game__info {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-.favorite-game__info__block {
+
+h1::after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: -20px;
     width: 50%;
+    height: 5px;
+    background-color: #AE00FB;
+    transition: 0.5s;
+}
+
+h1:hover::after {
+    left: 15%;
+    width: 70%;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#start-btn {
+    width: 420px;
+    height: 120px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid #FFC600;
+    border-radius: 42px;
+    color: #FFC600;
+    margin-top: 150px;
+    transition: 0.5s;
 }
-.favorite-game__info__block__row {
-    text-align: center;
-}
-.favorite-film__row {
-    display: flex;
-    margin-top: 15px;
-}
-#favorite-film__row__img1 {
-    width: 170px;
-    margin-right: 15px;
-    border-radius: 17px;
-}
-#favorite-film__row__img2 {
-    width: 259px;
-    height: 170px;
-    border-radius: 17px;
-}
-#favorite-film__row__img3 {
-    width: 444px;
-    height: 188px;
-    border-radius: 17px;
-}
-#img-holder {
-    width: 185px;
-    height: 785px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border-radius: 21.5px;
+
+#start-btn:hover {
+    text-shadow: 0 0 30px #FFFF00;
+    box-shadow: 0 0 30px #FFFF00;
 }

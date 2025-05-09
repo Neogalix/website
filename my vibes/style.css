@@ -1,0 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/pilowlava');
+
+body {
+    background-color: #170055;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Pilowlava', sans-serif;
+    color: #FFC600;
+}
+
+#holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+section {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 450px;
+    border-radius: 60px;
+    margin-bottom: 30px;
+}

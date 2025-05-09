@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Inter";
+}
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+textarea {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    resize: none;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+}
+.color-btn {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+}
+.color-btn:hover, .format-btn:hover {
+    width: 45px;
+    height: 45px;
+}
+.buttons-row {
+    display: flex;
+    justify-content: center;
+}
+.color-btn-holder, .format-btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 2.5px;
+}
+#red {
+    background-color: #f00;
+}
+#yellow {
+    background-color: #f7c716;
+}
+#green {
+    background-color: #0be807;
+}
+#blue {
+    background-color: #306bff;
+}
+#brown {
+    background-color: #943600;
+}
+#aqua {
+    background-color: #3bc4ff;
+}
+#black {
+    background-color: #000;
+}
+#orange {
+    background-color: #ff5d00;
+}
+#purple {
+    background-color: #a316a6;
+}
+#pink {
+    background-color: #f257c6;
+}
+#gray {
+    background-color: #5e5959;
+}
+#format-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#format-buttons-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 158px;
+    height: 50px;
+    margin-top: 10px;
+}
+.format-btn {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#bold {
+    font-weight: bold;
+}
+#italic {
+    font-style: italic;
+}
+#underline {
+    text-decoration: underline;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 50px;
+    margin-top: 10px;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: #FFBCAD;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover {
+    width: 130px;
+    height: 50px;
+}
+#input {
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#menu-btn, #back-btn, #theme-btn {
+    width: 50px;
+    height: 50px;
+}
+#menu-btn-holder, #back-btn-holder, #theme-btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0f0f0f;
+    border: 5px solid white;
+}
+#back-btn-holder {
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    left: 10px;
+}
+#menu-btn-holder {
+    width: 70px;
+    height: 70px;
+    top: 10px;
+    right: 10px;
+}
+#theme-btn-holder {
+    width: 80px;
+    height: 80px;
+    bottom: 10px;
+    left: 10px;
+}
+#menu-btn-holder:hover, #back-btn-holder:hover, #theme-btn-holder:hover {
+    background-color: #1a1a1a;
+}
