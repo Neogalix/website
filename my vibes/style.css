@@ -15,6 +15,7 @@ h1 {
     font-size: 72px;
     font-family: 'Pilowlava', sans-serif;
     color: #FFC600;
+    text-align: center;
 }
 
 #holder {
@@ -26,14 +27,24 @@ h1 {
 }
 
 section {
-    width: 450px;
+    width: 23vw;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 img {
-    width: 450px;
+    width: 100%;
     border-radius: 60px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+    #holder {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        width: 95vw;
+    }
 }
