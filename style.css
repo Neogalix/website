@@ -39,6 +39,7 @@ h3 {
 }
 
 h3:hover {
+    padding-bottom: 3px;
     text-shadow: 0 0 30px #B5FFD9;
     border-bottom: 3px solid #AE00FB;
 }
@@ -47,7 +48,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin: 150px 0;
 }
 
 h1 {
@@ -64,7 +65,7 @@ h1::after {
     width: 50%;
     height: 5px;
     background-color: #AE00FB;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 
 h1:hover::after {
@@ -77,6 +78,14 @@ h2 {
     margin: 0;
 }
 
+.line {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 15px auto;
+}
+
 .btn {
     width: 420px;
     height: 120px;
@@ -86,11 +95,15 @@ h2 {
     border: 6px solid #FFC600;
     border-radius: 42px;
     color: #FFC600;
-    margin-top: 150px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .btn:hover {
     text-shadow: 0 0 30px #FFFF00;
     box-shadow: 0 0 30px #FFFF00;
+}
+
+a {
+    text-decoration: none;
+    color: #B5FFD9;
 }

@@ -28,6 +28,10 @@ td {
     text-align: center;
 }
 
+a {
+    color: #B5FFD9;
+}
+
 tr:nth-child(even){
 	background: #10004E;
 }
