@@ -6,35 +6,28 @@ body {
     color: #B5FFD9;
 }
 
-#icon-holder {
-    width: 84px;
-    height: 84px;
+header {
+    width: 90vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    transition: 1.8s;
-}
-
-#icon-holder:hover {
-    rotate: 360deg;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
 }
 
 #icon {
     width: 84px;
     height: 84px;
+    transition: 1.8s;
 }
 
-header {
-    width: 540px;
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    right: 60px;
-    top: 30px;
+#icon:hover {
+    rotate: 360deg;
 }
 
-.links-holder {
-    width: 360px;
+nav {
+    width: 480px;
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +77,7 @@ h2 {
     margin: 0;
 }
 
-#start-btn {
+.btn {
     width: 420px;
     height: 120px;
     display: flex;
@@ -97,7 +90,7 @@ h2 {
     transition: 0.5s;
 }
 
-#start-btn:hover {
+.btn:hover {
     text-shadow: 0 0 30px #FFFF00;
     box-shadow: 0 0 30px #FFFF00;
 }
