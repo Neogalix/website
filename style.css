@@ -83,7 +83,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin: 15px auto;
+    margin: 0 auto 60px auto;
 }
 
 .btn {
